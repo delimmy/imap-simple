@@ -1,0 +1,60 @@
+{
+  "name": "imap-simple-with-socks",
+  "version": "5.0.0",
+  "description": "Wrapper over node-imap, providing a simpler api for common use cases, support socks proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "jscs . && jshint .",
+    "cover": "istanbul cover --report html _mocha"
+  },
+  "keywords": [
+    "imap",
+    "node-imap"
+  ],
+  "contributors": [
+    "Aravindo Wingeier <synox.github@dubgo.com>",
+    "Brian Beaird",
+    "Bruce V. Schwartz <bruce@z2a.org>",
+    "Chad McElligott <chad.mcelligott@gmail.com>",
+    "Dominik Beste <dominik.beste@gmail.com>",
+    "Erik Bernhardsson <erikbern@spotify.com>",
+    "Ilari Aarnio",
+    "Johannes Brodwall <johannes@brodwall.com>",
+    "John Kawakami <jkawakami@ebullient.net>",
+    "Julian Bilcke <julian.bilcke@gmail.com>",
+    "Maxiem <maxiemgeldhof@msn.com>",
+    "Nate Watson <watsonn2013@my.fit.edu>",
+    "Robert Vulpe <nytr0gen.george@gmail.com>",
+    "Tuomas Tanner",
+    "u2ros <urbernik@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadxz/imap-simple.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "iconv-lite": "~0.4.13",
+    "nodeify": "^1.0.0",
+    "quoted-printable": "^1.0.0",
+    "utf8": "^2.1.1",
+    "uuencode": "0.0.4",
+    "readable-stream": "1.1.x",
+    "socks": "^2.4.4",
+    "utf7": ">=1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "hoodiecrow-imap": "^2.1.0",
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3",
+    "mocha": "^3.1.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

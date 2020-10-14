@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+.idea
+.vscode
+coverage
+.DS_Store
+/test.js
+/test
+/dist
+webpack.config.js
