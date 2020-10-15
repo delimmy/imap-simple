@@ -39,13 +39,13 @@
   },
   "dependencies": {
     "iconv-lite": "~0.4.13",
-    "nodeify": "^1.0.0",
-    "quoted-printable": "^1.0.0",
-    "utf8": "^2.1.1",
-    "uuencode": "0.0.4",
+    "nodeify": "^1.0.1",
+    "quoted-printable": "^1.0.1",
     "readable-stream": "1.1.x",
     "socks": "^2.4.4",
-    "utf7": ">=1.0.2"
+    "utf7": ">=1.0.2",
+    "utf8": "^2.1.2",
+    "uuencode": "0.0.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
