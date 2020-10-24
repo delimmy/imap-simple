@@ -176,7 +176,7 @@ function connect (config) {
     clearTimeout(self._tmrAuth);
     self.debug && self.debug('[connection] Error: ' + err);
     err.source = 'socket';
-    self.emit('error', err);
+    //self.emit('error', err);
   };
   this._sock.on('error', this._onError);
 
@@ -2156,3 +2156,4 @@ function objEquiv(a, b) {
   }
   return true;
 }
+

@@ -4,7 +4,4 @@ npm-debug.log
 .vscode
 coverage
 .DS_Store
-/test.js
-/test
-/dist
-webpack.config.js
+test*.js
