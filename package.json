@@ -1,6 +1,6 @@
 {
   "name": "imap-simple-with-socks",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Wrapper over node-imap, providing a simpler api for common use cases, support socks proxy",
   "main": "index.js",
   "scripts": {
