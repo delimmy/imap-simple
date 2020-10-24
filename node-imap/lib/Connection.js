@@ -108,14 +108,19 @@ Connection.prototype.connect = async function() {
       } 
     }
   
-    SocksClient.createConnection(options, (err, info) => {
-      if (err) {
-        this.emit('error', err);
-        return
-      }
-      config.socket = info.socket;
-      connect.call(this, config)
-    })
+    try {
+      SocksClient.createConnection(options, (err, info) => {
+        if (err) {
+          this.emit('error', err);
+          return
+        }
+        config.socket = info.socket;
+        connect.call(this, config)
+      })
+    } catch (err) {
+      this.emit('error', err);
+    }
+
     
   } else {
     connect.call(this, config)
