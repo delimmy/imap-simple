@@ -13,21 +13,7 @@
     "node-imap"
   ],
   "contributors": [
-    "Aravindo Wingeier <synox.github@dubgo.com>",
-    "Brian Beaird",
-    "Bruce V. Schwartz <bruce@z2a.org>",
-    "Chad McElligott <chad.mcelligott@gmail.com>",
-    "Dominik Beste <dominik.beste@gmail.com>",
-    "Erik Bernhardsson <erikbern@spotify.com>",
-    "Ilari Aarnio",
-    "Johannes Brodwall <johannes@brodwall.com>",
-    "John Kawakami <jkawakami@ebullient.net>",
-    "Julian Bilcke <julian.bilcke@gmail.com>",
-    "Maxiem <maxiemgeldhof@msn.com>",
-    "Nate Watson <watsonn2013@my.fit.edu>",
-    "Robert Vulpe <nytr0gen.george@gmail.com>",
-    "Tuomas Tanner",
-    "u2ros <urbernik@gmail.com>"
+    "liteCarma <liteCarma@gmail.com>"
   ],
   "license": "MIT",
   "repository": {
